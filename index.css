@@ -50,6 +50,10 @@
   align-items: center;
   height: 100%;
 }
+.icono {
+  width: 80px;
+  height: 80px;
+}
 .sub-titulo {
   font-family: "Open Sans", sans-serif;
   font-size: 32px;
