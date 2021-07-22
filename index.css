@@ -44,6 +44,7 @@
   background-color: #141414;
   color: #fafafa;
   padding: 55px 32px;
+  width: 101%;
 }
 .seccion-tres {
   height: 1375px;
@@ -58,6 +59,7 @@
   background-color: #141414;
   color: #fafafa;
   padding: 0px 20px;
+  width: 101%;
 }
 .label {
   font-family: "Roboto", sans-serif;
@@ -142,4 +144,30 @@
 .imagen {
   width: auto;
   height: 380px;
+}
+
+.footer {
+  background-color: #dbdbdb;
+  height: 493px;
+  width: 101%;
+}
+
+.contenedor-footer {
+  padding: 40px 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.logo-redes {
+  width: 29px;
+  height: 29px;
+}
+
+.anchor {
+  padding-bottom: 30px;
 }
