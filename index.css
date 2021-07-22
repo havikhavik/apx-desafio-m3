@@ -33,6 +33,7 @@
   flex-direction: column;
   align-items: center;
   padding: 0px 42px;
+  width: 100%;
 }
 .seccion-dos {
   height: 538px;
