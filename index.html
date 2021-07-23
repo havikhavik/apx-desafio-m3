@@ -25,6 +25,11 @@
         <a href="./index.html"
           ><img src="./img/home.svg" alt="" width="55"
         /></a>
+        <div class="menu-desktop">
+          <a href="" class="nav-font">Quien soy</a>
+          <a href="" class="nav-font">Servicios</a>
+          <a href="" class="nav-font">Escribime</a>
+        </div>
         <div class="wrapper-menu">
           <div class="menu"></div>
           <div class="menu"></div>
@@ -33,10 +38,12 @@
       </div>
       <div class="seccion-uno">
         <h1 class="titulo">Bienvenidos a mi Sitio</h1>
-        <img src="./img/CV-removebg-preview.png" alt="" class="imagen" />
+        <img src="./img/foto.png" alt="" class="imagen" />
       </div>
     </main>
     <section class="seccion-dos">
+      <img src="./img/developer.svg" alt="" class="icono-oculto" />
+
       <div class="container">
         <h2 class="sub-titulo">Soy Lucas</h2>
         <p class="parrafo">
@@ -48,6 +55,7 @@
       <img src="./img/developer.svg" alt="" class="icono" />
     </section>
     <section class="seccion-tres">
+      <h2 class="segundo-subtitulo-oculto">Mis servicios</h2>
       <div class="container-dos">
         <h2 class="segundo-subtitulo">Mis servicios</h2>
         <div class="elementos-container-dos">
@@ -80,37 +88,43 @@
       </div>
     </section>
     <section class="seccion-cuatro">
-      <div class="form">
-        <h2 class="sub-titulo">Escribime</h2>
+      <h2 class="sub-titulo">Escribime</h2>
 
-        <label for="Name" class="label">NOMBRE</label>
-        <input
-          type="text"
-          name="Name"
-          id="Name"
-          style="width: 100%; height: 45px"
-        />
-        <label for="Email" class="label">EMAIL</label>
-        <input
-          type="email"
-          name="Email"
-          id="Email"
-          style="width: 100%; height: 45px"
-        />
-        <label for="Textarea" class="label">MENSAJE</label>
-        <textarea
-          name="Textarea"
-          id="Textarea"
-          cols="30"
-          rows="10"
-          style="width: 100%; height: 113px"
-        ></textarea>
+      <div class="form">
+        <div class="name" style="width: 100%">
+          <label for="Name" class="label">NOMBRE</label>
+          <input
+            type="text"
+            name="Name"
+            id="Name"
+            style="width: 100%; height: 45px; margin-top: 9px"
+          />
+        </div>
+        <div class="email" style="width: 100%">
+          <label for="Email" class="label">EMAIL</label>
+          <input
+            type="email"
+            name="Email"
+            id="Email"
+            style="width: 100%; height: 45px; margin-top: 9px"
+          />
+        </div>
+        <div class="textarea" style="width: 100%">
+          <label for="Textarea" class="label">MENSAJE</label>
+          <textarea
+            name="Textarea"
+            id="Textarea"
+            cols="30"
+            rows="10"
+            style="width: 100%; height: 113px; margin-top: 9px"
+          ></textarea>
+        </div>
         <div class="submit-button">Enviar</div>
       </div>
     </section>
     <footer class="footer">
       <div class="contenedor-footer">
-        <img src="img/developer.svg" alt="" class="icono" />
+        <img src="img/developer.svg" alt="" class="icono-footer" />
         <p
           style="
             font-family: 'Roboto', sans-serif;
