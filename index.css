@@ -15,9 +15,6 @@ img {
   padding: 14px 20px;
 }
 
-.wrapper-menu {
-}
-
 .menu-desktop {
   width: 428px;
   display: flex;
@@ -207,7 +204,7 @@ img {
     height: 210px;
   }
   .parrafo {
-    max-width: 532px;
+    max-width: 250px;
     font-size: 24px;
     margin-top: 50px;
   }
