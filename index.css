@@ -10,9 +10,9 @@ img {
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
-  padding: 14px 20px;
+  padding: 8px 20px;
 }
 
 .menu-desktop {
@@ -25,7 +25,7 @@ img {
 .nav-font {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 24px;
+  font-size: 0;
   font-weight: 700;
   color: #000000;
 }
@@ -38,8 +38,8 @@ img {
     visibility: visible;
   }
 
-  .nav {
-    justify-content: space-between;
+  .nav-font {
+    font-size: 24px;
   }
 }
 
@@ -88,7 +88,7 @@ img {
   background-color: #141414;
   color: #fafafa;
   padding: 55px 32px;
-  width: 101%;
+  width: 100%;
 }
 .seccion-tres {
   height: 1375px;
@@ -105,7 +105,7 @@ img {
   background-color: #141414;
   color: #fafafa;
   padding: 0px 20px;
-  width: 101%;
+  width: 100%;
 }
 .label {
   font-family: "Roboto", sans-serif;
@@ -202,11 +202,13 @@ img {
   .icono-oculto {
     width: 210px;
     height: 210px;
+    margin-top: 45px;
   }
   .parrafo {
-    max-width: 250px;
+    max-width: 330px;
     font-size: 24px;
-    margin-top: 50px;
+    margin-top: 25px;
+    text-align: center;
   }
 
   .seccion-tres {
@@ -270,7 +272,7 @@ img {
 .footer {
   background-color: #dbdbdb;
   height: 493px;
-  width: 101%;
+  width: 100%;
 }
 .icono-footer {
   width: 80px;
